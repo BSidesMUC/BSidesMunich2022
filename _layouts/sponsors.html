@@ -1,0 +1,56 @@
+---
+layout: default
+---
+
+<!-- Wrapper Start -->
+
+{% if site.conference.sponsors.lookingfor %}
+<!-- Call to action Start -->
+<section id="call-to-action">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <div class="block">
+
+{{ content }}
+
+        </div>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <div class="block">
+          <a class="btn btn-default btn-call-to-action" href="{{ site.conference.links.sponsorpackage_en_uri }}" target="_blank">
+			Become a Sponsor</a>
+          <a class="btn btn-default btn-call-to-action" href="{{ site.conference.links.sponsorpackage_de_uri }}" target="_blank">
+			Sponsor werden</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+{% endif %}
+
+{% if site.conference.sponsors.platinum or site.conference.sponsors.gold or site.conference.sponsors.silver or site.conference.sponsors.bronze or site.conference.sponsors.community %}
+
+<!-- sponsors Start -->
+<section id="sponsors">
+  <div class="container sponsorlogos">
+
+{% include sponsor_class.html class=site.conference.sponsors.platinum %}
+
+{% include sponsor_class.html class=site.conference.sponsors.gold %}
+
+{% include sponsor_class.html class=site.conference.sponsors.silver %}
+
+{% include sponsor_class.html class=site.conference.sponsors.bronze %}
+
+{% include sponsor_class.html class=site.conference.sponsors.community %}
+
+  </div>
+</section>
+
+{% endif %}
+

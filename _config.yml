@@ -1,0 +1,123 @@
+
+# Site settings
+title: BSides Munich 2022
+subtitle: "A free security conference in the heart of Bavaria"
+url: "https://2022.bsidesmunich.org" # the base hostname & protocol for your site
+baseurl: ""
+cover: "/assets/cover.png"
+logo: "/assets/logo.png"
+
+# Build settings
+markdown: kramdown
+
+collections:
+  talks:
+    output: true #Does not work
+    permalink: /:collection/:title/
+#    /:collection/:title/index.html
+  workshops:
+    output: true #Does not work
+    permalink: /:collection/:title/
+#    permalink: /:collection/:title
+
+# Google analytics
+# ga_tracking_id: "UA-XXXX-1"
+
+imprint:
+  #name: "BSides Munich, Mr. Frederic Mohr"
+  name: "MUC:SEC e.V."
+  addressco: "c/o LastBreach"
+  address: "Rohrauerstraße 70, 81477 München"
+  email: "manager [at] bsidesmunich [dot] org"
+  #phone: "+49 89
+  chair: Christoph Kemetmüller
+  vicechair: Ana Oprea
+
+
+conference:
+  # contact e-mail, e.g., for sponsors
+  email: organizers@bsidesmunich.org
+  twitter: https://twitter.com/bsidesmunich
+  newsletter: http://eepurl.com/dNWt2w
+  notice: 
+
+  sponsors:
+    contact: sponsors (at) bsidesmunich (dot) org
+    #show the sponsors in the footer of every page
+    lookingfor: false
+    footer: false #BETA
+    # sponsor logos should all have the same format (at least width)
+# uncomment it to fill sponsors in
+
+    community:
+    - name: Elbsides
+      logo: /img/sponsors/elbsides.png
+      uri: https://elbsides.de
+
+  links:
+    sponsorpackage_en_uri: /files/BSidesMunich2022Sponsorship-English.pdf
+    sponsorpackage_de_uri: /files/BSidesMunich2022Sponsorship-Deutsch.pdf
+    cfw_uri: 
+    cfp_uri: 
+    contickets_uri: 
+    contickets_state: 
+      
+  dates: 
+    deadline_tickets: 
+    deadline_cfp: 
+    workshops: 
+    conference:
+
+  venue:
+    workshopsday:
+      address: 
+      details: ""
+      gps: 
+    conferenceday:
+      address: 
+      details: ""
+      gps:
+
+  archive:
+    a2021:
+      title: "BSidesMEsh21"
+      participants: 400
+      speakers: 20
+      workshops: 8
+      team: 16
+      website_uri: https://2021.bsidesmunich.org
+      recordings_uri: https://www.youtube.com/watch?v=UmeF9mxdPv8&list=PL8N5HiRDvZ-d4E2JUsQjnNK_2eE_dDZTW
+      slider:
+      - src: img/slider2021/header.png
+
+compress_html:
+  clippings: all
+  comments: all
+  ignore:
+    envs: []
+  blanklines: false
+  profile: false
+
+exclude:
+  - "/vendor/"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "README.md"
+  - "Makefile"
+  - "INSTALL.txt"
+  - "LICENSE.md"
+  - "*.gemspec"
+
+keep_files:
+  - "CNAME"
+  - ".git"
+  - ".gitignore"
+
+pre_build:
+  commands:
+    - export LC_ALL="C.UTF-8"
+    - export LANG="en_US.UTF-8"
+    - export LANGUAGE="en_US.UTF-8"
+
+plugins:
+  - "jekyll-github-metadata"
