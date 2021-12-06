@@ -2,7 +2,7 @@
 layout: textpage
 title: BSides Munich 2022 - Planning has started
 
-show_map: false
+show_map: true
 ---
 
 BSidesMunich is the premiere, independently organized computer security event in the Munich, Germany area, bringing together both local and internationally renowned experts.
@@ -14,5 +14,7 @@ This also means that the conference will be what every attendee makes of it.
 So the success of the event will depend on your active participation, give a talk (in English), create a workshop, design a challenge for other attendees, help with the CTF or sponsoring.
 
 Check back here for more information, [follow us on twitter]({{ site.conference.twitter }}) to get the latest about our conference!
+
+{% include feature_dates.html %}
 
 {% include testimonial_row.html year=site.conference.archive.a2021 %}

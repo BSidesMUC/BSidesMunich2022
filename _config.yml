@@ -57,26 +57,27 @@ conference:
   links:
     sponsorpackage_en_uri: /files/BSidesMunich2022Sponsorship-English.pdf
     sponsorpackage_de_uri: /files/BSidesMunich2022Sponsorship-Deutsch.pdf
-    cfw_uri: 
-    cfp_uri: 
+    cfp_uri: https://pretalx.com/bsidesmunich2022/cfp
     contickets_uri: 
     contickets_state: 
       
   dates: 
     deadline_tickets: 
-    deadline_cfp: 
-    workshops: 
-    conference:
+    deadline_cfp: 2022-02-21
+    workshops: 2022-05-15
+    conference: 2022-05-16
 
   venue:
     workshopsday:
       address: 
-      details: ""
+      details: "tbd"
       gps: 
     conferenceday:
       address: 
-      details: ""
-      gps:
+      details: "Hilton Munich Park"
+      gps: 
+        lat: 48.1527802
+        long: 11.5987529
 
   archive:
     a2021:

@@ -9,6 +9,7 @@
 
 <!-- Assign Variable "pre_date" to the string of the metafield -->
 {% assign deadline_cfp = site.conference.dates.deadline_cfp | date: "%s" %}
+{% assign date_diff = today_date | minus: deadline_cfp %}
 
 <!-- Call to action Start -->
 <section id="call-to-action">
@@ -16,20 +17,11 @@
     <div class="row">
       {% if deadline_cfp > today_date %}
         {% if site.conference.links.cfp_uri %}
-      <div class="col-md-6">
+      <div class="col-md-6 col-md-offset-3">
         <div class="block">
           <h2>Call for Presentations</h2>
           <p>{{ site.conference.links.cfp_uri }}</p>
           <a class="btn btn-default btn-call-to-action" href="{{ site.conference.links.cfp_uri }}">Open Form</a>
-        </div>
-      </div>
-        {% endif %}
-        {% if site.conference.links.cfw_uri %}
-      <div class="col-md-6">
-        <div class="block">
-          <h2>Call for Workshops</h2>
-          <p>{{ site.conference.links.cfw_uri }}</p>
-          <a class="btn btn-default btn-call-to-action" href="{{ site.conference.links.cfw_uri }}">Open Form</a>
         </div>
       </div>
         {% endif %}
