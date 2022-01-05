@@ -76,6 +76,13 @@
   padding: 0;
 }
 
+#intro ul {
+  color: #7B7B7B;
+  list-style: disc;
+  margin-block: 1em;
+  padding-inline-start: 40px;
+}
+
 .speaker-image img {
   width: 150px;
   margin-top: 15px;

@@ -44,7 +44,7 @@ conference:
   sponsors:
     contact: sponsors (at) bsidesmunich (dot) org
     #show the sponsors in the footer of every page
-    lookingfor: false
+    lookingfor: true
     footer: false #BETA
     # sponsor logos should all have the same format (at least width)
 # uncomment it to fill sponsors in
@@ -55,8 +55,8 @@ conference:
       uri: https://elbsides.de
 
   links:
-    sponsorpackage_en_uri: /files/BSidesMunich2022Sponsorship-English.pdf
-    sponsorpackage_de_uri: /files/BSidesMunich2022Sponsorship-Deutsch.pdf
+    #sponsorpackage_en_uri: /files/BSidesMunich2022Sponsorship-English.pdf
+    #sponsorpackage_de_uri: /files/BSidesMunich2022Sponsorship-Deutsch.pdf
     cfp_uri: https://pretalx.com/bsidesmunich2022/cfp
     contickets_uri: 
     contickets_state: 
