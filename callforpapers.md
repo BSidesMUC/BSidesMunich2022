@@ -46,6 +46,13 @@ Keep in mind: the better your description is, the better our review will be.
 ## Program committee
 Your submission is subject to approval by the program committee of BSides Munich.
 
+* Sneha Rajguru (Chair)
+* Stefan Bauregger
+* Jenn Janesko
+* Silvio Riener
+* Dr. Morton Swimmer
+
+
 ## Terms
 All presentation slides will be published on the conference website after the conference. Please make sure that any pictures and other materials in your slides don’t violate any copyrights.
 You are solely liable for copyright violations. You may choose any CC license for your slides, including CC0.
