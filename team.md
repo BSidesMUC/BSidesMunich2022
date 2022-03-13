@@ -61,6 +61,8 @@ To cool off after a busy day, Oliver likes to take a dip in ice cold water, spen
 
 ### Sneha
 {% include orgainfo.html twitter="@Sneharajguru" %}
+Sneha has been working in the field of information security for over a decade now, she has spoken and provided training at various international security conferences.
+Outside work, she likes to take small hikes in the alps, spends her time building the 75192 Millennium Falcon and is obsessed with Darth Vader. 
 
 
 ### Silvio
