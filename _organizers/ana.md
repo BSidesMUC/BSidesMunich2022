@@ -3,7 +3,7 @@ layout: textpage
 title: Ana
 name: Ana
 photo: 
-handle: 0xa6ea
+handle:
 ---
 
 The combination of Site Reliability Engineering and working on planning and strategy for Google's Technical Infrastructure have fit like a charm Ana's previous experience as Software Developer, Technical Consultant and Network Admin.

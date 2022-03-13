@@ -3,7 +3,7 @@ layout: textpage
 title: Stefan
 name: Stefan
 photo: 
-handle: camelinc
+handle: 
 ---
 
 Stefan likes breaking all sorts of technical things, which designates him for his job as penetration tester.
