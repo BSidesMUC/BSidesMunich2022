@@ -9,12 +9,12 @@ layout: default
     <div class="row">
       <div class="col-md-12">
       
-      {% for speaker in site.organizers %}
+      {% for organizer in site.organizers %}
       <div class="row">
         <div class="col-md-2 col-md-offset-1 col-xs-8 col-xs-offset-3">
           <div class="block speaker-image">
-      {% if speaker.photo  %}
-            <img src="{{ speaker.photo | relative_url }}">          
+      {% if organizer.photo  %}
+            <img src="{{ organizer.photo | relative_url }}">          
       {% else %}
             <img src="/img/nemo.png">
       {% endif %}
@@ -24,12 +24,12 @@ layout: default
         <div class="col-md-9 col-xs-12">
           <div class="block">
             <p>
-              <h2>{{ speaker.name }}</h2>
-      {% if speaker.handle %}
-          <a href="https://www.twitter.com/{{ include.twitter }}" class="fa fa-twitter">@{{ speaker.handle }}</a>          
+              <h2>{{ organizer.name }}</h2>
+      {% if organizer.handle %}
+          <a href="https://www.twitter.com/{{ organizer.handle  }}" class="fa fa-twitter">@{{ organizer.handle }}</a>          
       {% endif %}
             </p>
-      {{ speaker.content | markdownify }}
+      {{ organizer.content | markdownify }}
           </div>
         </div>
       </div>
