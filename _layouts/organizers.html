@@ -1,0 +1,43 @@
+---
+layout: default
+---
+ 
+<!-- Wrapper Start -->
+<section id="organizers">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-md-12">
+      
+      {% for speaker in site.organizers %}
+      <div class="row">
+        <div class="col-md-2 col-md-offset-1 col-xs-8 col-xs-offset-3">
+          <div class="block speaker-image">
+      {% if speaker.photo  %}
+            <img src="{{ speaker.photo | relative_url }}">          
+      {% else %}
+            <img src="/img/nemo.png">
+      {% endif %}
+          </div>
+        </div>
+      
+        <div class="col-md-9 col-xs-12">
+          <div class="block">
+            <p>
+              <h2>{{ speaker.name }}</h2>
+      {% if speaker.handle %}
+          <a href="https://www.twitter.com/{{ include.twitter }}" class="fa fa-twitter">@{{ speaker.handle }}</a>          
+      {% endif %}
+            </p>
+      {{ speaker.content | markdownify }}
+          </div>
+        </div>
+      </div>
+      
+      <div class="row">&nbsp;</div>    
+      {% endfor %}  
+      </div>
+   </div>
+ 
+</div>
+</section>

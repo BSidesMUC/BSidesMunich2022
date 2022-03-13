@@ -21,6 +21,10 @@ collections:
     output: true #Does not work
     permalink: /:collection/:title/
 #    permalink: /:collection/:title
+  organizers:
+    output: false #Does not work
+#    permalink: /:collection/:title/
+#    permalink: /:collection/:title
 
 # Google analytics
 # ga_tracking_id: "UA-XXXX-1"
