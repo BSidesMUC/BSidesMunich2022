@@ -14,17 +14,17 @@ markdown: kramdown
 
 collections:
   talks:
-    output: true #Does not work
+    output: true
     permalink: /:collection/:title/
 #    /:collection/:title/index.html
   workshops:
-    output: true #Does not work
+    output: true
     permalink: /:collection/:title/
 #    permalink: /:collection/:title
   organizers:
-    output: false #Does not work
-#    permalink: /:collection/:title/
-#    permalink: /:collection/:title
+    output: false
+  sponsors:
+    output: false
 
 # Google analytics
 # ga_tracking_id: "UA-XXXX-1"
@@ -54,11 +54,6 @@ conference:
     footer: false #BETA
     # sponsor logos should all have the same format (at least width)
 # uncomment it to fill sponsors in
-
-    community:
-    - name: Elbsides
-      logo: /img/sponsors/elbsides.png
-      uri: https://elbsides.de
 
   links:
     #sponsorpackage_en_uri: /files/BSidesMunich2022Sponsorship-English.pdf

@@ -35,24 +35,66 @@ layout: default
 </section>
 {% endif %}
 
-{% if site.conference.sponsors.platinum or site.conference.sponsors.gold or site.conference.sponsors.silver or site.conference.sponsors.bronze or site.conference.sponsors.community %}
+{% assign sponsorlevels = site.sponsors | where_exp: 'sponsor','sponsor.logo != nil' | group_by: 'level' | sort: 'level' %}
+
+{% assign sponsorlevels2 = site.sponsors | where_exp: 'sponsor','sponsor.logo != nil' | sort: 'level' %}
+
+{% assign sponsorlevels_sorted = sponsorlevels2 | group_by: 'level'  %}
+
+{% if sponsorlevels_sorted %}
 
 <!-- sponsors Start -->
 <section id="sponsors">
   <div class="container sponsorlogos">
 
-{% include sponsor_class.html class=site.conference.sponsors.platinum %}
+{% for sponsorlevel in sponsorlevels_sorted %}
 
-{% include sponsor_class.html class=site.conference.sponsors.gold %}
+  {% if sponsorlevel.name == "60" %}
+    {% assign classname = "sponsor-platinum" %}
+    {% assign classtext = "Platinum Sponsor" %}
+  {% elsif sponsorlevel.name == "70" %}
+    {% assign classname = "sponsor-gold" %}
+    {% assign classtext = "Gold Sponsor" %}
+  {% elsif sponsorlevel.name == "80" %}
+    {% assign classname = "sponsor-silver" %}
+    {% assign classtext = "Silver Sponsor" %}
+  {% elsif sponsorlevel.name == "90" %}
+    {% assign classname = "sponsor-bronze" %}
+    {% assign classtext = "Bronze Sponsor" %}
+  {% elsif sponsorlevel.name == "100" %}
+    {% assign classname = "sponsor-community" %}
+    {% assign classtext = "Community Sponsor" %}
+  {% endif %}
 
-{% include sponsor_class.html class=site.conference.sponsors.silver %}
+<div class="row">
+  <div class="col-md-12">
+    <div class="block">
+      <div class="sponsor-title">
+        <h2 id="{{ classname }}">{{ classtext }}</h2>
+      </div>
 
-{% include sponsor_class.html class=site.conference.sponsors.bronze %}
+      <div class="sponsor-list {{ classname }}">
+      {% for sponsor in sponsorlevel.items %}
 
-{% include sponsor_class.html class=site.conference.sponsors.community %}
-
+        <div class="col-md-3 col-sm-6 col-xs-12 sponsor">
+          <div class="image-container vcenter">
+          {% if sponsor.uri %}
+            <a href="{{ sponsor.uri }}">
+            <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }}">
+            </a>
+          {% else %}
+            <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }}">
+          {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+      </div>
+    </div>
   </div>
+</div>
+{% endfor %}
+
+</div>
 </section>
 
 {% endif %}
-
