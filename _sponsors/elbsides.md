@@ -1,6 +1,5 @@
 ---
-type: community
-level: 100
+level: 100 #community
 name: Elbsides
 logo: /img/sponsors/elbsides.png
 uri: https://elbsides.de
