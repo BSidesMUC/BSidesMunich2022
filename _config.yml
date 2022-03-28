@@ -67,14 +67,15 @@ conference:
     deadline_cfp: 2022-03-19T23:06:06
     workshops: 2022-05-15
     conference: 2022-05-16
-
   venue:
     workshopsday:
-      address: 
-      details: "tbd"
+      address: Paul-Heyse-Straße 29, 80336 München
+      details: "Maltego Technologies GmbH"
       gps: 
+        lat: 48.1359701
+        long: 11.5560349
     conferenceday:
-      address: 
+      address: Am Tucherpark 7, 80538 München
       details: "Hilton Munich Park"
       gps: 
         lat: 48.1527802

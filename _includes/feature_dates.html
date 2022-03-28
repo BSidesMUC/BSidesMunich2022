@@ -10,31 +10,38 @@
     <div class="container">
         <div class="row">
             <div class="col-md-5 col-md-offset-1">
-                <div class="feature-box">
+                <div class="feature-box feature-dates">
                     <h2>Workshops</h2>
-                    <ul>
-                        {% if site.conference.dates.workshops %}
-                        <li>Workshop Day: {{ site.conference.dates.workshops }}</li>
-                        {% endif %}
-                        {% if site.conference.venue.workshopsday.address %}
-                        <li>Location: {{ site.conference.venue.workshopsday.address }}</li>
-                        {% endif %}
-                    </ul>
-                    <p></p>
+
+                    {% if site.conference.dates.workshops %}
+                    <p>
+                        <b>{{ site.conference.dates.workshops }}</b> at <b>{{ site.conference.venue.workshopsday.details }}</b>
+                    </p>
+                    {% endif %}
+
+                    {% if site.conference.venue.workshopsday.address %}
+                    <p>
+                        {{ site.conference.venue.workshopsday.address }}
+                    </p>
+                    {% endif %}
+
                 </div>
             </div>
             <div class="col-md-5">
-                <div class="feature-box">
+                <div class="feature-box feature-dates">
                     <h2>Conference</h2>
-                    <ul>
-                        {% if site.conference.dates.conference %}
-                        <li>Conference Day: {{ site.conference.dates.conference }}</li>
-                        {% endif %}
-                        {% if site.conference.venue.conferenceday.address %}
-                        <li>Location: {{ site.conference.venue.conferenceday.address }}</li>
-                        {% endif %}
-                    </ul>
-                    <p></p>
+
+                    {% if site.conference.dates.conference %}
+                    <p>
+                        <b>{{ site.conference.dates.conference }}</b> at <b>{{ site.conference.venue.conferenceday.details }}</b>
+                    </p>
+                    {% endif %}
+
+                    {% if site.conference.venue.conferenceday.address %}
+                    <p>
+                        {{ site.conference.venue.conferenceday.address }}
+                    </p>
+                    {% endif %}
                 </div>
             </div>
         </div>

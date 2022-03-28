@@ -1,6 +1,6 @@
 ---
 layout: textpage
-title: BSides Munich 2022 - Planning has started
+title: BSides Munich 2022 - L�yer 6
 
 show_map: true
 ---
@@ -18,3 +18,5 @@ Check back here for more information, [follow us on twitter]({{ site.conference.
 {% include feature_dates.html %}
 
 {% include testimonial_row.html year=site.conference.archive.a2021 %}
+
+

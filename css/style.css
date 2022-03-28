@@ -263,3 +263,12 @@
 .sponsor-list {
   text-align: center;
 }
+#feature .feature-dates p {
+  color: black;
+  margin-bottom: 20px;
+  margin: unset;
+  font-size: larger;
+}
+#feature .feature-dates h2 {
+  margin-bottom: 10px;
+}
