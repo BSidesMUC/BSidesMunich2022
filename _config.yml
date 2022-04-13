@@ -60,7 +60,6 @@ conference:
     #sponsorpackage_de_uri: /files/BSidesMunich2022Sponsorship-Deutsch.pdf
     cfp_uri: https://pretalx.com/bsidesmunich2022/cfp
     contickets_uri: https://pretix.eu/bsidesmunich/2022/
-    contickets_state: Book a ticket
       
   dates: 
     deadline_tickets: 
