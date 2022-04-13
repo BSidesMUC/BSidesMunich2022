@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: "Adding DAST to CI/CD, Without Any Losing Friends"
-details: false
+details: true
 track: 1
 accepted: true
 timeslot:
