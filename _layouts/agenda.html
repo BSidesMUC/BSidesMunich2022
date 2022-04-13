@@ -35,12 +35,19 @@ layout: default
 
     <div class="row">
        
-{% for track in (1..4) %}
-      <div class="p-12 col-lg-12 col-md-4">
+{% for track in (1..2) %}
+      <div class="p-6 col-lg-6 col-md-4">
         <div class="card">
           <div class="card-block text-center card-primary p-2">
-            <h2>Track {{ track }}</h2>
+            {% if track == 1 %}
+              <h2>Maltego Open Office</h2>
+            {% elsif track == 2 %}
+              <h2>Maltego Schulungsraum </h2>
+            {% else %}
+              <h2>Track {{ track }}</h2>
+            {% endif %}
           </div>
+        </div>
           <ul class="list-group list-group-flush">
 
 {% assign talks = site.workshops | where: "track",track | where: "accepted",true | sort: 'timeslot.start' %}
@@ -68,18 +75,15 @@ layout: default
  
           </ul>
         </div>
-      </div> 
 {% endfor %}  
-    </div> 
+      </div> 
 {% endif %}
-
     
     <div class="row">
       <div class="col-md-12">
          &nbsp;
       </div><!-- .col-md-12 close -->
     </div>
-    
     
     
 {% if site.talks.size > 0 %}
@@ -90,6 +94,12 @@ layout: default
             <h2>Talks</h2>
             <p class="lead">{{ site.conference.dates.conference }}</p>
             <p>{{ site.conference.venue.conferenceday.address }}</p>
+
+            {% if site.conference.venue.conferenceday.details %}
+            <div class="section-title agenda-title">
+              <p>{{ site.conference.venue.conferenceday.details }}</p>
+            </div>
+            {% endif %}
           </div>
         </div>
       </div><!-- .col-md-12 close -->
@@ -100,18 +110,20 @@ layout: default
       <div class="p-6 col-lg-6 col-md-6">
         <div class="card">
           <div class="card-block text-center card-primary p-2">
-          {% if track == 42 %}
-            <h2>10X Track</h2>
-          {% elsif track == 123 %}
-            <h2>Moonshot Track </h2>
+          {% if track == 1 %}
+            <h2>Hilton Ballroom</h2>
+          {% elsif track == 2 %}
+            <h2>Hilton Rumford </h2>
           {% else %}
             <h2>Track {{ track }}</h2>
           {% endif %}
           </div>
+        </div>
             <ul class="list-group list-group-flush">
 
 {% assign sorted = site.talks | where: "track",track | where: "accepted",true | sort: 'timeslot.start' %}
 {% for talk in sorted %}
+
 {% assign start = talk.timeslot.start | date: '%H:%M' %}
 {% assign end = talk.timeslot.end | date: '%H:%M' %}
 {% if talk.title != "" %}
@@ -158,9 +170,8 @@ layout: default
 {% endfor %}  
           </ul>
         </div>
-      </div>
 {% endfor %}  
-      
+      </div>
     </div>
 {% endif %}
  
