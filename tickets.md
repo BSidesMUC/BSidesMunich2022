@@ -1,5 +1,5 @@
 ---
-layout: textpage
+layout: ticketpage
 title: Ticket Registration
 permalink: /tickets/
 
@@ -26,6 +26,4 @@ Each workshop has a separate registration link on eventbrite.
 ## Questions
 
 For questions please get in contact with tickets (at) bsidesmunich (dot) org.
-
-{% include regconference_buttons.html %}
-
+ 
