@@ -24,7 +24,7 @@ layout: default
         <div class="col-md-9 col-xs-12">
           <div class="block">
             <p>
-              <h2>{{ organizer.name }}</h2>
+              <h2 id="{{ organizer.name }}">{{ organizer.title }}</h2>
       {% if organizer.handle %}
           <a href="https://www.twitter.com/{{ organizer.handle  }}" class="fa fa-twitter">@{{ organizer.handle }}</a>          
       {% endif %}
