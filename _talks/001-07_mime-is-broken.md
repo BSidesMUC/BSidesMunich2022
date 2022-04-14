@@ -24,6 +24,3 @@ unstructered ASCII text with limited line length.
 Similar to standards like HTTP,  MIME and related are full of unneeded flexibility and complexity.
 It is easy to construct MIME which will be interpreted in different ways by different implementations.
 This makes it possible to bypass security systems like mail gateways or antivirus, but also to change messages which deemed to by cryptographically protected with DKIM.
-
-The talk is a summary of research I did within the last years.
-Some of the findings were already published by me (like bypassing DKIM signatures or antivirus), others were not published yet.

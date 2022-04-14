@@ -17,11 +17,3 @@ track: 1
 ---
 
 This workshop will teach you the fundamentals about the Java Ecosystem, how to analyze Java based applications and provide some additional Tips & Tricks.
-
-In this workshop you will analyze a real world application and discover and exploit a vulnerability in it.
-By doing so, we try to cover the following points:
-
-- Important Java Fundamentals and key components of a Java based(web) application
-- Finding and exploiting Java Deserialization vulnerabilities 
-- A closer look into Ysoserial and deserialization gadget chains
-- Java Meterpreter and Post exploitation

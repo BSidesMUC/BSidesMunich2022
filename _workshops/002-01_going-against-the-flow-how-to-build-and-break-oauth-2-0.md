@@ -30,23 +30,3 @@ Although built for security purposes, the OAuth protocol still leaves us with so
 This workshop aims to shed more light on the inner workings of OAuth 2.0.
 Following a hands-on approach, we will first build our own OAuth environment and the start breaking it.
 By the end of this workshop, you will not only be able to tell all kinds of tokens apart but know how to spot and target OAuth in the wild.
-
-The workshop is comprised of three parts:
-
-**1.
-Understanding OAuth**
-
-Why do we need OAuth at all; which problems does it solve? And how does it solve them? – The first part will provide answers to these questions and covers all the nitty-gritty of OAuth 2.0.
-We will see that it is not as complicated as it may seem at first glance.
-And which better way is there to actually understand how everything works together by just implementing a simple OAuth environment ourselves.
-
-**2.
-Breaking OAuth**
-
-The second part focuses on an attacker’s perspective on OAuth.
-We will look at different ways how to steal tokens, hijack accounts and identify all weak spots in our own implementation.
-
-**3.
-Making OAuth more secure**
-
-The last part covers additional security controls and more recent developments that intend to close the backdoors we have seen in OAuth so far.

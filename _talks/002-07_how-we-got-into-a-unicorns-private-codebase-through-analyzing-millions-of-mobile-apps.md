@@ -44,5 +44,3 @@ Considering that GitGuardian’s studies are limited to only public repositories
 Hence, in our study, we directly explore the source code of millions of mobile apps and find out these instances of leaks directly.
 In this talk, we plan on investigating the causes, impacts, and techniques that can be used to prevent such leaks.
 Further, we'll be giving you a sneak peek into some of our interesting findings.
-
-This is the [preliminary draft](https://www.canva.com/design/DAE6wCUcly8/Is6tP6Y34O2_vJg_a7Vg4A/view?utm_content=DAE6wCUcly8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) of the presentation we will be using for our talk.

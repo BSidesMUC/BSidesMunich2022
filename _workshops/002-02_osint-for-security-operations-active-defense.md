@@ -24,5 +24,3 @@ track: 2
 Many different sources of publicly available information can be compiled and analyzed to generate intelligence to help organizations identify potential risk areas.
 
 In this workshop, Security professionals will learn how to leverage OSINT  for investigations to gain better visibility into threats facing their organization, including using OSINT sources to get information on suspicious IOCs and mapping our external networks to find unknown/unsecured assets.
-
-In this workshop, we will teach attendees how to leverage OSINT tools (free/open-source) to improve their investigative efforts on incidents or threats to their organizations, we will also talk about Operational Security (OPSEC) and why it is important when performing OSINT Investigations.

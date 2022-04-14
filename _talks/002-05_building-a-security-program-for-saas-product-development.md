@@ -21,11 +21,3 @@ Short-, medium- and long-term security activities will be discussed, with specif
 
 The content of this talk will cover a broad range, from technical topics, s.a.
 tooling for security automation or container security, all the way to non-technical topics such as compliance or risk assessment.
-
-Image the following fictitious scenario: you are starting a new job as the first security engineer of a startup with a software-as-a-service offering built on top of well known public cloud platforms with cloud-native technology.
-
-Being the first person to tackle security as a full time job, this might seem light a monumental task.
-
-How to quickly get a first overview of the current security posture? Where to start with security improvements? How to prioritize? How to define a security roadmap?
-
-This talk covers both technical aspects and general issues such as risk management, organizational aspects and how a specific (technical) long-term security roadmap could look like.

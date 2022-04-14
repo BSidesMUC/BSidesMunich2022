@@ -28,10 +28,3 @@ Designs of bridges vary and could range from quite primitive to extremely comple
 Bridge hacks have led to a loss of over 1 billion USD worth of cryptocurrencies in the past year.
 In this talk, we provide a breakdown of high level components and different processes of bridges and identify their risks.
 We will then deep dive into past hacks that specifically targeted bridges.
-
-As the blockchain industry shifted towards a multi-chain world, bridges became an important part of the ecosystem.
-Designs of bridges vary and could range from quite primitive to extremely complex.
-However, they all typically consist of the smart contracts holding and releasing the assets, as well as the nodes that help facilitate user interactions between chains.
-Bridge hacks have led to a loss of over 1 billion USD worth of cryptocurrencies in the past year.
-In this talk, we provide a breakdown of high level components and different processes of bridges and identify their risks.
-We will then deep dive into past hacks that specifically targeted bridges.

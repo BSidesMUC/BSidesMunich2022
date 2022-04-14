@@ -22,18 +22,3 @@ track: 1
 
 This workshop goes beyond your classic python based port scanner...
 The workshop focus on automating SQL injection, NoSQL injection,  CSRF bypass, CORS,  bassic fuzzing using python, threads, sockets and the fun stuff that  missed in your "Python for hackers 101".
-
-We will explore use-cases in the form of vulnerabilities/exploits that allow us to leverage the python language for doing fun stuff in an automated way and that allow us to recycle such exploits for other endeavors :
-
-- Case study 1: Multithreaded NoSQL injection exploit Box mango from hackthebox.
-    * Learning outcomes: Multithreading, Blind NoSQL injection.
-- Case study 2:  Atutor CVE-2016-2555 - SQL injection to RCE.
-    * Learning outcomes: Blind SQL injection, automated database enumeration, type-juggling, insecure fileuploads.
-- Case study 3:  Netcat-ish implementation in python.
-    * Learning outcomes: Sockets, reverse shells, client-server
-- Case study 4: Listener for data exfiltration over DNS
-    * learning outcomes: DNS servers, base64 encoding, data exfiltration.
-
-
-Disclaimer: All this content could be learned from different paid and free resources on internet.
-The exposition of this information is in the best interest  of the hacking community and I don't own credit for discovering any of these techniques.

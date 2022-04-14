@@ -23,12 +23,3 @@ track: 1
 
 Despite admin privileges an EDR product in Windows can be very annoying from red team perspective.
 Therefor we search ways to disable the EDR without relying on a uninstall password, Windows security center etc.
-
-A talk about strategies how to tamper EDR products under Windows.
-Also as administrator it isn't always as easy to find a way to bypass good EDR products.
-For example, you were able to comprise your first host in the target network and you also where able to escalate to a local admin.
-On the host you see, that there are open high integrity processes from an domain admin and you want to steal the token of the domain admin or dump the lsass process.
-But also as admin you are note allowed to disable the EDR because it is password protected.
-Instead of bypassing the EDR we try to find a more or less general path to tamper EDR products in user space and kernel space, that we as red teamers are able to avoid prevention, detection, telemetry collection by the EDR, host isolation by the EDR and EDR repairing of a partly tampered EDR system.
-To learn about the strategies we have a closer look at the different components from EDR products in user space and kernel space under Windows.
-We try step by step to understand the relationship between the different components (processes, services, reg keys, callbacks, drivers etc.) and by that we try to find a way to completely disable an edr product by tampering necessary components from the EDR.

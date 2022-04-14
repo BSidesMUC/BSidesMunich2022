@@ -33,5 +33,3 @@ Its goal is to develop a data format to describe the sequence of adversary behav
 We will take a deep dive into the current state of the art of tools and processes.
 Here we show what is possible and where the current limitations of the frameworks are.
 Participants will be able to utilize future methodologies to measure the effectiveness of the information security of their systems.
-
-Please see the abstract
