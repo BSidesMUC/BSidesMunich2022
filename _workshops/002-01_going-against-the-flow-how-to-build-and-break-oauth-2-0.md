@@ -11,10 +11,11 @@ speakers:
   handle: false
   name: Claudia Ully
   photo: null
-- bio: null
+- bio: Dominik is a Penetration Tester at NVISO, where he is the Solution Lead for
+    Web Applications.
   handle: false
   name: Dominik Holzapfel
-  photo: null
+  photo: https://pretalx.com/media/avatars/profile_square_TJmStKV.jpg
 timeslot:
   duration: 240
   end: 2022-05-15 13:00:00+02:00
@@ -28,5 +29,5 @@ Over time, additional security controls and flow types have been introduced to m
 Although built for security purposes, the OAuth protocol still leaves us with some backdoors for exploitation if they were not properly closed during implementation.
 
 This workshop aims to shed more light on the inner workings of OAuth 2.0.
-Following a hands-on approach, we will first build our own OAuth environment and the start breaking it.
+Following a hands-on approach, we will first build our own OAuth environment and then start breaking it.
 By the end of this workshop, you will not only be able to tell all kinds of tokens apart but know how to spot and target OAuth in the wild.
