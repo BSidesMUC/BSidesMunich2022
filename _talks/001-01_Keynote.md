@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: "Is there anybody out there?"
-details: false
+details: true
 track: 1
 accepted: true
 timeslot:
@@ -22,4 +22,15 @@ speakers:
 
 ---
 
-TBA
+When starting a career in security, especially in the Cyber Defense field, you are overwhelmed with new topics, concepts and buzzwords.
+Also sometimes you think, am I the only one with that problem?
+Whom should I talk to? Is there a trusted group I can share my problems, my experience or even my failure?
+
+Or in a nutshell: Is there anybody out there?
+
+This talk will discuss my personal experience growing up in the Incident Response Community.
+What I have learned, gained and experienced.
+I hope that attendees will learn from my experience and especially from my mistakes I did over the past two decades.
+
+Also communities are important for us, they still have the typical problems like scale of trust.
+I will raise some of them and give you ideas, how we may be able to overcome them.
