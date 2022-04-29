@@ -1,5 +1,6 @@
 ---
 accepted: true
+code: AMTLWJ
 details: true
 keynote: false
 layout: talk

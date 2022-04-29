@@ -1,5 +1,6 @@
 ---
 accepted: true
+code: YBYUZH
 details: true
 keynote: false
 layout: talk

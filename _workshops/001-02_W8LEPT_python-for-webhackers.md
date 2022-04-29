@@ -1,5 +1,6 @@
 ---
 accepted: true
+code: W8LEPT
 details: true
 keynote: false
 layout: talk

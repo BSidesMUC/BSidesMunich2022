@@ -1,5 +1,6 @@
 ---
 accepted: true
+code: RMTDT9
 details: true
 keynote: false
 layout: talk
@@ -10,7 +11,7 @@ speakers:
     security issues.
   handle: false
   name: Claudia Ully
-  photo: null
+  photo: https://pretalx.com/media/avatars/Claudia-Ully_square_3a367PD.jpg
 - bio: Dominik is a Penetration Tester at NVISO, where he is the Solution Lead for
     Web Applications.
   handle: false

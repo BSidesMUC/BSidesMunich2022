@@ -1,5 +1,6 @@
 ---
 accepted: true
+code: F9WSQD
 details: true
 keynote: false
 layout: talk
@@ -15,6 +16,15 @@ speakers:
 - bio: .
   handle: false
   name: Kihong Heo
+  photo: null
+- bio: Director at Cyber Security Research Center and Professor at Graduate School
+    of Information Security, KAIST
+  handle: false
+  name: Sang Kil Cha
+  photo: null
+- bio: Software engineer at Furiosa AI
+  handle: false
+  name: Myeong Geun Shin
   photo: null
 timeslot:
   duration: 30
