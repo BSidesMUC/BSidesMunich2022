@@ -12,8 +12,8 @@ speakers:
   photo: https://pretalx.com/media/avatars/pp_ejJx4gC.jpg
 timeslot:
   duration: 30
-  end: 2022-05-16 12:00:00+02:00
-  start: 2022-05-16 11:30:00+02:00
+  end: 2022-05-16 11:00:00+02:00
+  start: 2022-05-16 10:30:00+02:00
 title: 'Keeping Electric Vehicles Secure: the need for a CAN security framework'
 track: 2
 ---
