@@ -10,7 +10,14 @@ speakers:
     numerous impactful tools and techniques in the automotive security sector.
   handle: false
   name: Javier Vazquez
-  photo: null
+  photo: https://pretalx.com/media/avatars/javier_qsOMlB3.png
+- bio: Ethan Briggs is an automotive security engineer that enjoys analyzing systems
+    to understand what runs "under the hood", and finding ways to improve or compromise
+    them. This includes the electronic side of vehicles as well as mechanical aspects
+    as well.
+  handle: false
+  name: Ethan Briggs
+  photo: https://pretalx.com/media/avatars/IMG_6540_nabAYev.JPG
 timeslot:
   duration: 30
   end: 2022-05-16 12:00:00+02:00
