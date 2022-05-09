@@ -11,6 +11,12 @@ speakers:
   handle: false
   name: Nico Leidecker
   photo: null
+- bio: Moritz is a security consultant working in the Software and Security assessment
+    team at NVISO. He is an ICS and IoT enthusiast, getting into the latest technologies
+    in both fields. He loves to program, reverse engineer and break stuff.
+  handle: false
+  name: Thomas
+  photo: https://pretalx.com/media/avatars/dbb539e6-2fd1-4f1e-82c3-b85bdefe62cd_1vySmjx.jpg
 timeslot:
   duration: 30
   end: 2022-05-16 13:00:00+02:00
