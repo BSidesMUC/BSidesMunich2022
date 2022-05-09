@@ -15,7 +15,7 @@ speakers:
     team at NVISO. He is an ICS and IoT enthusiast, getting into the latest technologies
     in both fields. He loves to program, reverse engineer and break stuff.
   handle: false
-  name: Thomas
+  name: Moritz Thomas
   photo: https://pretalx.com/media/avatars/dbb539e6-2fd1-4f1e-82c3-b85bdefe62cd_1vySmjx.jpg
 timeslot:
   duration: 30
