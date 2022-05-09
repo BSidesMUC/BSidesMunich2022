@@ -14,7 +14,7 @@ timeslot:
   end: 2022-05-15 13:00:00+02:00
   start: 2022-05-15 09:00:00+02:00
 title: Java Fundamentals for Penetration Testers and Security Researchers
-track: 1
+track: 2
 ---
 
 This workshop will teach you the fundamentals about the Java Ecosystem, how to analyze Java based applications and provide some additional Tips & Tricks.

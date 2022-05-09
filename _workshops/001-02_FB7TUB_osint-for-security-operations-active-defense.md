@@ -19,7 +19,7 @@ timeslot:
   end: 2022-05-15 17:00:00+02:00
   start: 2022-05-15 14:00:00+02:00
 title: OSINT for Security Operations - Active Defense
-track: 2
+track: 1
 ---
 
 Many different sources of publicly available information can be compiled and analyzed to generate intelligence to help organizations identify potential risk areas.

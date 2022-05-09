@@ -22,7 +22,7 @@ timeslot:
   end: 2022-05-15 13:00:00+02:00
   start: 2022-05-15 09:00:00+02:00
 title: 'Going Against the Flow: How to Build and Break OAuth 2.0'
-track: 2
+track: 1
 ---
 
 Be it an API, web service or mobile application – by now OAuth 2.0 has become the most commonly used standard when it comes to granting access to protected resources to third-party applications.
