@@ -5,14 +5,19 @@ details: true
 keynote: false
 layout: talk
 speakers:
-- bio: Cyber Security Researcher
+- bio: I started my way as a Cyber Security Researcher at the Israeli military. After
+    serving for three years I moved to work at Morphisec as a Malware Researcher.
+    As a blue teamer, I'm fascinated with everything related to malware, threat hunting
+    and Windows internals.
   handle: false
   name: Hido Cohen
   photo: https://pretalx.com/media/avatars/profile_au6ASHJ.jpg
-- bio: Security Researcher
+- bio: Arnold Osipov has been a security researcher at Morphisec for the last 3 years.
+    He specializes in malware research and threat intelligence. Prior he was a malware
+    researcher at Check Point.
   handle: false
   name: Arnold Osipov
-  photo: https://pretalx.com/media/avatars/2AD2B9E2-D2DC-4D6D-9610-759319CAD243_xTffIj3.jpeg
+  photo: https://pretalx.com/media/avatars/IMG_8166_HKMwYs1.JPG
 timeslot:
   duration: 30
   end: 2022-05-16 12:30:00+02:00
