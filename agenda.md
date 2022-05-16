@@ -13,4 +13,5 @@ You can find the individual links below.
 Thanks to [@ministraitor](https://twitter.com/ministraitor) for providing the equipment and recording the whole event!
 //-->
 
- 
+
+You can watch the conference streams of the [Main stage](https://youtu.be/OVbzlN3evzo) and [Moonshot stage](https://youtu.be/LiM1Z90WQAw).
