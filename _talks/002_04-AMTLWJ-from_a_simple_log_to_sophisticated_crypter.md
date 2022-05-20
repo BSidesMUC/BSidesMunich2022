@@ -25,7 +25,7 @@ timeslot:
 title: From a simple log to sophisticated crypter
 track: 2
 recording_uri: https://www.youtube.com/watch?v=h3J7UD2f2Rw
-slides_uri: '/files/slides/002-04_AMTLWJ_BABADEDA Crypter.pdf'
+slides_uri: '/files/slides/002_04-AMTLWJ-BABADEDA Crypter.pdf'
 ---
 
 As security researchers we always strive to find the next piece of malware no one else has seen before.
