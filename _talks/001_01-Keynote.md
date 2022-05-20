@@ -20,7 +20,7 @@ speakers:
 
       He holds a PhD in Computer Engineering from the Friedrich Alexander University Erlangen-Nuremberg and a Diploma in Computer Science from the University of Applied Sciences Landshut.
 recording_uri: https://www.youtube.com/watch?v=XLxEi4L5df8
-slides_uri: false
+slides_uri: '/dev/null'
 ---
 
 When starting a career in security, especially in the Cyber Defense field, you are overwhelmed with new topics, concepts and buzzwords.

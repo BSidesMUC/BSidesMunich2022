@@ -25,7 +25,7 @@ title: 'Building an ICS Firing Range (in our kitchen): sharing our journey & les
   learned (so you don’t have to)'
 track: 1
 recording_uri: https://www.youtube.com/watch?v=ob1QTs1e-x0
-slides_uri: 'files/slides/001_05-ML3CFD-ICS_Firing Range _ BSides 2022.pdf'
+slides_uri: '/files/slides/001_05-ML3CFD-ICS_Firing Range _ BSides 2022.pdf'
 ---
 
 Aiming to improve our own expertise in ICS security, we went to build our own ICS firing range for internal and external trainings, and hacking demos.

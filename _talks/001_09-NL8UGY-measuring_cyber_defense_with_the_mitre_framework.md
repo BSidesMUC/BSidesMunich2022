@@ -23,7 +23,7 @@ timeslot:
 title: Measuring Cyber Defense with the MITRE Framework
 track: 1
 recording_uri: https://www.youtube.com/watch?v=lvlaNQsGldE
-slides_uri: 'files/slides/001_09-NL8UGY-Measuring_IT-Security_with_MITRE_ATTACK_v1_R55IcLF.pdf'
+slides_uri: '/files/slides/001_09-NL8UGY-Measuring_IT-Security_with_MITRE_ATTACK_v1_R55IcLF.pdf'
 ---
 
 The MITRE ATT&CK framework provides a common taxonomy for adversary behaviors.

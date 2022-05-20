@@ -22,7 +22,7 @@ speakers:
       She values diversity, inclusion, and kindness, which shines through in her countless initiatives.
 
 recording_uri: false
-slides_uri: false
+slides_uri: '/dev/null'
 ---
 
 Everyone wants to put tests into the release pipeline, but no one wants to wait hours for them to finish.  

@@ -21,7 +21,7 @@ timeslot:
 title: 'Master of Puppets: How to tamper the EDR?'
 track: 1
 recording_uri: https://www.youtube.com/watch?v=ZIxE_wHwA84
-slides_uri: 'files/slides/001_02-ET3X3H-Master of Puppets- How to tamper the EDR.pdf'
+slides_uri: '/files/slides/001_02-ET3X3H-Master of Puppets- How to tamper the EDR.pdf'
 ---
 
 Despite admin privileges an EDR product in Windows can be very annoying from red team perspective.

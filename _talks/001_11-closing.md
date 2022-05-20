@@ -10,8 +10,8 @@ timeslot:
   duration: 30
 speakers: 
   - name: Sneha
-recording_uri: https://youtu.be/OVbzlN3evzo?t=2722
-slides_uri: 'files/slides/001_11-Closing Remarks.pdf'
+recording_uri: https://youtu.be/OVbzlN3evzo?t=33304
+slides_uri: '/files/slides/001_11-Closing Remarks.pdf'
 ---
 
 <!-- empty //-->

@@ -25,7 +25,7 @@ title: How We Got Into A Unicorn’s Private Codebase Through Analyzing Millions
   Mobile Apps
 track: 2
 recording_uri: https://www.youtube.com/watch?v=-r5PEEKaoTs
-slides_uri: 'files/slides/002-07_YPZLAC_BSides Munich.pdf'
+slides_uri: '/files/slides/002-07_YPZLAC_BSides Munich.pdf'
 ---
 
 Reading a **$120 million worthy unicorn startup's private codebase** on a fine Sunday afternoon while sipping on coffee would be an exciting experience, wouldn't it? It’s not a very uncommon phenomenon.

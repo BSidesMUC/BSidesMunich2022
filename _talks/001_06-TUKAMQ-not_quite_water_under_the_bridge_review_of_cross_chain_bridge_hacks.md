@@ -23,7 +23,7 @@ timeslot:
 title: 'Not quite water under the bridge: Review of cross-chain bridge hacks'
 track: 1
 recording_uri: https://www.youtube.com/watch?v=wpei-pVJCCc
-slides_uri: 'files/slides/001_06-TUKAMQ-BSidesMunich22- Not quite water under the bridge- Review of cross_chain bridge hacks.pdf'
+slides_uri: '/files/slides/001_06-TUKAMQ-BSidesMunich22- Not quite water under the bridge- Review of cross_chain bridge hacks.pdf'
 ---
 
 As the blockchain industry shifted towards a multi-chain world, bridges became an important part of the ecosystem.

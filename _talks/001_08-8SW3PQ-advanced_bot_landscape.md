@@ -19,7 +19,7 @@ timeslot:
 title: Advanced Bot Landscape
 track: 1
 recording_uri: https://www.youtube.com/watch?v=VmB43-vBBbw
-slides_uri: 'files/slides/001_08-8SW3PQ-Advanced Bot Landscape Yohann Sillam slides.pdf'
+slides_uri: '/files/slides/001_08-8SW3PQ-Advanced Bot Landscape Yohann Sillam slides.pdf'
 ---
 
 Bad bots traffic represents around a quarter of Internet traffic today and is predicted to increase.

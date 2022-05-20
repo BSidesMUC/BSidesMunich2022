@@ -20,7 +20,7 @@ timeslot:
 title: MacOS Endpoint Security Framework - What it can do and how to use it
 track: 1
 recording_uri: https://www.youtube.com/watch?v=XNFU9296_r0
-slides_uri: 'files/slides/001_01-7FB9VT-ESF presentation-WithSecure-online.pdf'
+slides_uri: '/files/slides/001_01-7FB9VT-ESF presentation-WithSecure-online.pdf'
 ---
 
 Endpoint Security Framework (ESF) is the new(ish) security auditing tool that Apple has introduced to provide the security industry with a one stop shop for all its telemetry needs.

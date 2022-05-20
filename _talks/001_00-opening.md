@@ -11,7 +11,7 @@ timeslot:
 speakers: 
   - name: Sneha
 recording_uri: https://youtu.be/OVbzlN3evzo?t=2722
-slides_uri: 'files/slides/001_00-Opening Remarks.pdf'
+slides_uri: '/files/slides/001_00-Opening Remarks.pdf'
 ---
 
 <!-- empty //-->

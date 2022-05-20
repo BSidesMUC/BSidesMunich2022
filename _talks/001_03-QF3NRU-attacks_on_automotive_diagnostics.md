@@ -25,7 +25,7 @@ timeslot:
 title: Attacks on Automotive Diagnostics
 track: 1
 recording_uri: false
-slides_uri: 'files/slides/001_03-QF3NRU-Attacks-on-automotive-diagnostics-2022.pdf'
+slides_uri: '/files/slides/001_03-QF3NRU-Attacks-on-automotive-diagnostics-2022.pdf'
 ---
 
 Basic CAN injection attacks based on replay have been broadly covered in automotive security, but that the only threat that exists?
