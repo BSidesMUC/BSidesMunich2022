@@ -21,7 +21,7 @@ speakers:
       She is an award-winning public speaker, active blogger & streamer and has delivered hundreds of talks and trainings on 6 continents.
       She values diversity, inclusion, and kindness, which shines through in her countless initiatives.
 
-recording_uri: false
+recording_uri: https://www.youtube.com/watch?v=rF4LM63a_4s
 slides_uri: '/dev/null'
 ---
 

@@ -19,8 +19,8 @@ timeslot:
   start: 2022-05-16 12:00:00+02:00
 title: Fuzzing USB with Raw Gadget
 track: 1
-recording_uri: false
-slides_uri: false
+recording_uri: 
+slides_uri: 
 ---
 
 This talk is about fuzzing Linux kernel USB drivers via [Raw Gadget](https://github.com/xairy/raw-gadget) — a new interface for the Linux USB Gadget subsystem.

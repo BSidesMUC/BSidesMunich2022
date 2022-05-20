@@ -24,7 +24,7 @@ timeslot:
   start: 2022-05-16 11:30:00+02:00
 title: Attacks on Automotive Diagnostics
 track: 1
-recording_uri: false
+recording_uri: 
 slides_uri: '/files/slides/001_03-QF3NRU-Attacks-on-automotive-diagnostics-2022.pdf'
 ---
 
