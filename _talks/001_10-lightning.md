@@ -1,6 +1,6 @@
 ---
 layout: talk
-title: Motivational Talk
+title: Lightning Talk
 details: false
 track: 1
 accepted: true
