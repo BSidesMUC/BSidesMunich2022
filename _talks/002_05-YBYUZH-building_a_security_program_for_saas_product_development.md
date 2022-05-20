@@ -16,7 +16,7 @@ timeslot:
 title: Building a Security Program for SaaS Product Development
 track: 2
 recording_uri: https://www.youtube.com/watch?v=J0-DkScoI8k
-slides_uri: false
+slides_uri: 'files/slides/002_05-YBYUZH-talk_v2_UvGdgjm.pdf'
 ---
 
 Image the following fictitious scenario: you are starting a new job as the first security engineer of a startup with a software-as-a-service (or platform-as-a-service) offering built on top of well known public cloud platforms with cloud-native technology.
