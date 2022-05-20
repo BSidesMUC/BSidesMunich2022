@@ -33,7 +33,7 @@ timeslot:
 title: When usability met 2FA
 track: 2
 recording_uri: https://www.youtube.com/watch?v=gpMlqV6yMgc
-slides_uri: false
+slides_uri: 
 ---
 
 In this talk, we discuss how recent attempts to enhance security in KAIST, one of the authoritative research institutes in South Korea, lead to an even more serious security risk.

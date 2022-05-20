@@ -17,7 +17,7 @@ timeslot:
 title: 'Keeping Electric Vehicles Secure: the need for a CAN security framework'
 track: 2
 recording_uri: https://www.youtube.com/watch?v=kG8AbV8t0K4
-slides_uri: false
+slides_uri: 
 ---
 
 Vehicle security has gained traction ever since the infamous 2014 Jeep Cherokee incident.

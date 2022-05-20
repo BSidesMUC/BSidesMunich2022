@@ -19,7 +19,7 @@ timeslot:
 title: MIME is broken
 track: 1
 recording_uri: https://www.youtube.com/watch?v=yhDPLZOTd2g
-slides_uri: false
+slides_uri: 
 ---
 
 MIME is basically a container format to serialize structured textual and binary data so that they can be presented wiithin the restriction of the original mail, i.e.
